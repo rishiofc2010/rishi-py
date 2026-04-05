@@ -6,7 +6,7 @@ app = FastAPI()
 # Index route
 @app.get("/")
 def read_root():
-    print "Hi people"
+    print ("Hi people")
     return {"message": "Hello World"}
 
 # Extract text from uploaded PDF
